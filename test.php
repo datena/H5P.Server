@@ -1,5 +1,7 @@
 <?php
 
+phpinfo();
+
 if ($_SERVER['REQUEST_METHOD'] == 'POST') {
 
 	$ret=array('strings'=>$_POST,'error'=>'0');
